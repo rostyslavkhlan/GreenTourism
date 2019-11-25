@@ -40,7 +40,7 @@ export default function BookingForm(
                 <br/>
                 <div style={{display:"flex", flexDirection:"row", width:"100%", justifyContent:"space-between"}}>
                     <button className={"btn btn-auth-form"}>ЗАБРОНЮВАТИ</button>
-                    <a href={"./registration"}>
+                    <a href={"./hotel"}>
                         <button className={"btn btn-auth-form btn-auth-form-empty"} >НАЗАД</button>
                     </a>
                 </div>

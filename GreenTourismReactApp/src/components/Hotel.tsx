@@ -47,7 +47,7 @@ export default function Hotel(props: {hotelName:string}) {
                                     <li>Опалення</li>
                                     <li>Супутникові канали</li>
                                 </ul>
-                                <div className="float-right"><a href="./hotel" className="btn place-hotel-btn" role="button">Бронювати</a></div></div>
+                                <div className="float-right"><a href="./booking" className="btn place-hotel-btn" role="button">Бронювати</a></div></div>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default function Hotel(props: {hotelName:string}) {
                                     <li>Опалення</li>
                                     <li>Супутникові канали</li>
                                 </ul>
-                                <div className="float-right"><a href="./hotel" className="btn place-hotel-btn" role="button">Бронювати</a></div></div>
+                                <div className="float-right"><a href="./booking" className="btn place-hotel-btn" role="button">Бронювати</a></div></div>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export default function Hotel(props: {hotelName:string}) {
                                     <li>Опалення</li>
                                     <li>Супутникові канали</li>
                                 </ul>
-                                <div className="float-right"><a href="./hotel" className="btn place-hotel-btn" role="button">Бронювати</a></div>
+                                <div className="float-right"><a href="./booking" className="btn place-hotel-btn" role="button">Бронювати</a></div>
                             </div>
                         </div>
                     </div>

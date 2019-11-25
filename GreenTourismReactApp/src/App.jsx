@@ -14,6 +14,11 @@ import RegistrationForm from "./components/RegistrationForm";
 import LoginForm from "./components/LoginForm";
 import Hotel from "./components/Hotel";
 import Place from "./components/Place";
+import BookingForm from "./components/BookingForm";
+import HotelModel from "./models/hotelModel";
+import PlaceModel from "./models/placeModel";
+import moment from "moment";
+import RoomModel from "./models/roomModel";
 
 function App() {
 
@@ -23,6 +28,20 @@ function App() {
       <React.Fragment>
           <Router history={history}>
             <Switch>
+              <Route path="/booking">
+                <div>
+                  <HotelHeader hotelName={"Готель Буковина"}/>
+                  <MainPage>
+                    <BookingForm
+                        hotel={new HotelModel(0)}
+                        room={new RoomModel(0)}
+                        placeName={new PlaceModel(0)}
+                        arrivalDate={moment("10:00", "HH:mm").add(24, "hours")}
+                        leavingDate={moment("9:00", "HH:mm").add(72, "hours")}/>
+                  </MainPage>
+                  <AppFooter/>
+                </div>
+              </Route>
               <Route path="/login">
                 <div>
                   <AppHeader authButtonsInVisible/>

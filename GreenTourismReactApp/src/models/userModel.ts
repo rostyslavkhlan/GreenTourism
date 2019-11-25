@@ -1,4 +1,4 @@
-export default class Place {
+export default class UserModel {
     private readonly _id: number;
 
     constructor(id: number) {

@@ -1,4 +1,4 @@
-export default class User {
+export default class HotelModel {
     private readonly _id: number;
 
     constructor(id: number) {
